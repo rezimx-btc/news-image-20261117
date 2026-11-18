@@ -1,26 +1,19 @@
-# THE WORLD — 17 November 2026
+# THE WORLD — Tuesday, 17 November 2026
 
-[![make.fun](https://make.fun/badge/news-image-20261117.svg)](https://make.fun/bounty/news-image-20261117)
-[![make.fun rank](https://make.fun/badge/news-image-20261117/rezimx-btc/news-image-20261117/rank.svg)](https://make.fun/bounty/news-image-20261117/leaderboard)
-[![make.fun reward](https://make.fun/badge/news-image-20261117/rezimx-btc/news-image-20261117/reward.svg)](https://make.fun/bounty/news-image-20261117)
+A one-page front-page newspaper summing up the world's news of
+Tuesday, 17 November 2026: the war at sea in the Strait of Hormuz,
+Ukraine's strike on the Kerch Bridge, the Xi–Trump–Putin summit in
+Shenzhen, COP31 in Antalya, and more — with a world map marking
+where each story happened.
 
-A newspaper front page that sums up Tuesday 17 November 2026 in one
-image: Trump lands in Manila for the Quad summit, the Crimea bridge is
-hit as Russia strikes Kyiv's bridges, Iran fires drones at a US radar
-base in Bahrain, a third US carrier reaches the Middle East, and more —
-fourteen verified stories from every continent, plotted on a world map.
+`main.py` (Python 3.13, standard library only) draws the whole page
+and writes it to `/output/entry.png` (or `$MAKEFUN_OUTPUT_DIR`).
 
-Every headline on the page is a real event from 17 November 2026.
-The program is pure Python 3 standard library: it draws the page with
-a hand-typed 5x7 bitmap font and writes the PNG with a small
-zlib + struct encoder. No third-party packages, no network, fully
-deterministic — two runs produce byte-identical output.
-
-## Run it
+## Run
 
 ```sh
-python3 main.py
+mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
 ```
 
-The front page is written to `$MAKEFUN_OUTPUT_DIR/entry.png`
-(or `/output/entry.png` when the variable is unset).
+Running it twice produces byte-identical output (no time, no
+randomness, no network). The PNG is 1024x1024 and under 1 MiB.
