@@ -1,5 +1,11 @@
 # THE WORLD — Tuesday, 17 November 2026
 
+[![make.fun · news-image-20261117](https://make.fun/badge/news-image-20261117.svg)](https://make.fun/bounty/news-image-20261117?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261117)
+[![rank](https://make.fun/badge/news-image-20261117/rezimx-btc/news-image-20261117/rank.svg)](https://make.fun/bounty/news-image-20261117/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261117)
+[![reward](https://make.fun/badge/news-image-20261117/rezimx-btc/news-image-20261117/reward.svg)](https://make.fun/bounty/news-image-20261117?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261117)
+
+[View the bounty on make.fun](https://make.fun/bounty/news-image-20261117)
+
 A one-page front-page newspaper summing up the world's news of
 Tuesday, 17 November 2026: the war at sea in the Strait of Hormuz,
 Ukraine's strike on the Kerch Bridge, the Xi–Trump–Putin summit in
